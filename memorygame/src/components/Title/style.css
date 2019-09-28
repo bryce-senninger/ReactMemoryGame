@@ -1,0 +1,9 @@
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 7rem;
+  text-decoration: underline;
+  color: #6e481b;
+  margin-bottom: 50px;
+  font-family: "Mansalva", cursive;
+}
