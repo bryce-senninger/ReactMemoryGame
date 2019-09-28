@@ -3,8 +3,16 @@ import "./style.css";
 
 function DogCard(props) {
   return (
-    <div className="card">
-      <img key={props.id} alt={props.name} src={props.image} />
+    <div>
+      <div className="card">
+        <img
+          onClick={() => props.handleIncrement(props.id)}
+          key={props.id}
+          id={props.id}
+          alt={props.name}
+          src={props.image}
+        />
+      </div>
     </div>
   );
 }

@@ -9,5 +9,5 @@
   align-content: flex-start;
   overflow: auto;
   height: 100vh;
-  background: black;
+  background-image: url("./back.jpg");
 }

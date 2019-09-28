@@ -1,12 +1,16 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 120px;
-  margin: 1rem;
+  height: auto;
+  margin: 1.5rem;
   position: relative;
-  width: 200px;
+  width: auto;
   box-shadow: 0 6px 9px #999, 0 6px 9px #999;
   text-align: left;
+  border-style: solid;
+  border-color: rgb(168, 139, 105);
+  border-width: 4px;
+  border-radius: 25px;
 }
 
 .card > .img-container {
@@ -51,7 +55,52 @@
 }
 
 img {
-  width: 200px;
-  height: 120px;
-  object-fit: cover;
+  /* width: 200px; */
+  /* height: 120px; */
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.card:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.9s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
