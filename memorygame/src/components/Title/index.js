@@ -6,6 +6,12 @@ function Title(props) {
     <>
       <div className="jumbotron">
         <h1 className="display-4">{props.children}</h1>
+        <button
+          className="btn btn-primary btn-lg"
+          onClick={() => props.showInstructions()}
+        >
+          Instructions
+        </button>
       </div>
       <h2 className="counter">
         Score: {props.score} High Score: {props.highScore}

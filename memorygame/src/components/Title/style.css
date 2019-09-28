@@ -7,15 +7,13 @@
 }
 
 .jumbotron {
-  background-image: linear-gradient(
-    to right,
-    rgb(92, 69, 43),
-    rgb(196, 196, 160)
-  );
+  background-image: linear-gradient(to top, rgb(92, 69, 43), rgb(61, 184, 71));
   border-style: solid;
   border-color: white;
   opacity: 0.8;
   border-radius: 25px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .jumbotron:hover {
@@ -30,15 +28,28 @@
   font-family: "Mansalva", cursive;
 }
 
-.jumbotron:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 0.9s;
-
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
+.btn-primary {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  background: rgb(100, 100, 100);
+  color: white;
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #cccccc;
 }
 
-@keyframes shake {
+.btn-primary:hover {
+  background: rgb(22, 22, 22);
+  border-color: rgb(61, 184, 71);
+}
+
+/* .jumbotron:hover {
+  animation: shake 0.9s;
+  animation-iteration-count: infinite;
+} */
+
+/* @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
   }
@@ -72,4 +83,4 @@
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
   }
-}
+} */

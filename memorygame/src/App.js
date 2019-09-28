@@ -47,10 +47,18 @@ class App extends Component {
     document.getElementById("audio2").play();
   };
 
+  showInstructions = () => {
+    alert("Hello");
+  };
+
   render() {
     return (
       <Wrapper>
-        <Title score={this.state.score} highscore={this.state.highScore}>
+        <Title
+          score={this.state.score}
+          highscore={this.state.highScore}
+          showInstructions={this.showInstructions}
+        >
           Who let the dogs out?
         </Title>
         {this.state.options.map(option => (
