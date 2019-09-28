@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactMemoryGame/static/css/main.f0790404.chunk.css",
-    "main.js": "/ReactMemoryGame/static/js/main.396adecd.chunk.js",
-    "main.js.map": "/ReactMemoryGame/static/js/main.396adecd.chunk.js.map",
-    "runtime-main.js": "/ReactMemoryGame/static/js/runtime-main.1049ada0.js",
-    "runtime-main.js.map": "/ReactMemoryGame/static/js/runtime-main.1049ada0.js.map",
-    "static/js/2.90b068db.chunk.js": "/ReactMemoryGame/static/js/2.90b068db.chunk.js",
-    "static/js/2.90b068db.chunk.js.map": "/ReactMemoryGame/static/js/2.90b068db.chunk.js.map",
-    "index.html": "/ReactMemoryGame/index.html",
-    "precache-manifest.374a506e4b04c8f339ee6d057cd7c07d.js": "/ReactMemoryGame/precache-manifest.374a506e4b04c8f339ee6d057cd7c07d.js",
-    "service-worker.js": "/ReactMemoryGame/service-worker.js",
-    "static/css/main.f0790404.chunk.css.map": "/ReactMemoryGame/static/css/main.f0790404.chunk.css.map",
-    "static/media/style.css": "/ReactMemoryGame/static/media/back.dd07d997.jpg"
+    "main.css": "/bryce-senninger/ReactMemoryGame/static/css/main.b6f48850.chunk.css",
+    "main.js": "/bryce-senninger/ReactMemoryGame/static/js/main.61d0d5fc.chunk.js",
+    "main.js.map": "/bryce-senninger/ReactMemoryGame/static/js/main.61d0d5fc.chunk.js.map",
+    "runtime-main.js": "/bryce-senninger/ReactMemoryGame/static/js/runtime-main.2cd036a0.js",
+    "runtime-main.js.map": "/bryce-senninger/ReactMemoryGame/static/js/runtime-main.2cd036a0.js.map",
+    "static/js/2.90b068db.chunk.js": "/bryce-senninger/ReactMemoryGame/static/js/2.90b068db.chunk.js",
+    "static/js/2.90b068db.chunk.js.map": "/bryce-senninger/ReactMemoryGame/static/js/2.90b068db.chunk.js.map",
+    "index.html": "/bryce-senninger/ReactMemoryGame/index.html",
+    "precache-manifest.8056643a5f16cb683d81c4aa7444144f.js": "/bryce-senninger/ReactMemoryGame/precache-manifest.8056643a5f16cb683d81c4aa7444144f.js",
+    "service-worker.js": "/bryce-senninger/ReactMemoryGame/service-worker.js",
+    "static/css/main.b6f48850.chunk.css.map": "/bryce-senninger/ReactMemoryGame/static/css/main.b6f48850.chunk.css.map",
+    "static/media/style.css": "/bryce-senninger/ReactMemoryGame/static/media/back.dd07d997.jpg"
   }
 }
