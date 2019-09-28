@@ -9,8 +9,7 @@ class App extends Component {
     options,
     score: 0,
     highScore: 0,
-    play: false,
-    instructions: 'data-toggle="modal"'
+    play: false
   };
 
   handleIncrement = id => {
@@ -74,7 +73,6 @@ class App extends Component {
             id={option.id}
             name={option.name}
             image={option.image}
-            // playBark={this.playBark}
           />
         ))}
       </Wrapper>
