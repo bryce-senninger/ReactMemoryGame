@@ -6,10 +6,11 @@ import Wrapper from "./components/Wrapper/index";
 
 class App extends Component {
   state = {
-    options: options,
+    options,
     score: 0,
     highScore: 0,
-    play: false
+    play: false,
+    instructions: 'data-toggle="modal"'
   };
 
   handleIncrement = id => {
@@ -32,11 +33,14 @@ class App extends Component {
   };
 
   gameOver = () => {
-    // if (this.state.score > this.state.highScore) {
-    //   this.setState({ highScore: this.state.score });
-    // }
     this.playWhine();
+    if (this.state.score > this.state.highScore) {
+      this.setState({ highScore: (this.state.highScore = this.state.score) });
+    }
     this.setState({ score: this.state.score - this.state.score });
+    for (let i = 0; i < options.length; i++) {
+      options[i].count = 0;
+    }
   };
 
   playBark = () => {
@@ -48,7 +52,9 @@ class App extends Component {
   };
 
   showInstructions = () => {
-    alert("Hello");
+    alert(
+      "The dogs have gotten loose! Round up the pups by clicking on each one. Be mindful of which ones you've already herded up- clicking on the same dog twice will allow them all to escape again! Go ahead, try to gather up all 12!"
+    );
   };
 
   render() {
@@ -56,7 +62,7 @@ class App extends Component {
       <Wrapper>
         <Title
           score={this.state.score}
-          highscore={this.state.highScore}
+          highScore={this.state.highScore}
           showInstructions={this.showInstructions}
         >
           Who let the dogs out?
