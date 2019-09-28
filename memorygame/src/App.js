@@ -13,8 +13,13 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Who let the dogs out?</Title>
-        {this.state.options.map(option => (
-          <DogCard name={option.name} image={option.image} />
+        {this.state.options.map((option, index) => (
+          <DogCard
+            key={index}
+            id={option.id}
+            name={option.name}
+            image={option.image}
+          />
         ))}
       </Wrapper>
     );
