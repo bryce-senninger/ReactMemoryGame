@@ -34,7 +34,7 @@ class App extends Component {
   gameOver = () => {
     this.playWhine();
     if (this.state.score > this.state.highScore) {
-      this.setState({ highScore: (this.state.highScore = this.state.score) });
+      this.setState({ highScore: this.state.score });
     }
     this.setState({ score: this.state.score - this.state.score });
     for (let i = 0; i < options.length; i++) {
